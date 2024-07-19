@@ -1,0 +1,23 @@
+
+  @media (max-width: 979px) {
+    body {
+      padding-top: 0px;
+    }
+  }
+  /* app.css */
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+    /* Specify the path to your font file */
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'JetBrains Mono', sans-serif; /* Apply the font */
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
