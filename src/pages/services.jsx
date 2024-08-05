@@ -1,5 +1,4 @@
 import React from "react";
-import GooglePayButton from '@google-pay/button-react';
 
 export default function Services() {
   return (

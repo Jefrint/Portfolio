@@ -2,17 +2,18 @@ import { FiDownload } from "react-icons/fi";
 import { Button } from "@material-tailwind/react";
 import Social from "../Components/social";
 import Profile from "../Components/Profile";
+import Stat from "../Components/stats"
 const Home = () => {
   return (
-    <section className="h-full">
+    <section className="">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
-          {/* Text section */}
-          <div className="order-2 xl:order-none text-center cl:text-left">
-            <span className="text-xl ">Software Developer</span>
-            <h1 className="text-5xl font-bold">
+          
+          <div className="order-2 xl:order-none text-center lg:text-left">
+            <span className="md:text-xl text-lg ">Software Developer</span>
+            <h1 className="md:text-5xl text-4xl font-bold">
               Hello, I'm <br />
-              <span className="text-5xl font-bold text-accent mb-5">Jefrin Thomas Mathew</span>
+              <span className="md:text-5xl text-3xl font-bold text-accent mb-5">Jefrin Thomas Mathew</span>
             </h1>
             <p className="max-w-[500px] mb-8 text-white/80">I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.</p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
@@ -24,6 +25,8 @@ const Home = () => {
            <div className="order-1 xl:order-none mb-8 xl:mb-0"><Profile/></div>     
           </div>
           
+          <Stat/>
+
         </div>
         
       
