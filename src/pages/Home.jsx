@@ -3,6 +3,8 @@ import { Button } from "@material-tailwind/react";
 import Social from "../Components/social";
 import Profile from "../Components/Profile";
 import Stat from "../Components/stats"
+import { TypeAnimation } from 'react-type-animation';
+
 const Home = () => {
   return (
     <section className="">
@@ -10,7 +12,23 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           
           <div className="order-2 xl:order-none text-center lg:text-left">
-            <span className="md:text-xl text-lg ">Software Developer</span>
+            <div className="md:text-xl text-lg ">   <TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+        'Software Engineer',
+        2000, // wait 1s before replacing "Mice" with "Hamsters"
+        'Front-end Developer',
+        2000,
+        'UI/UX Designer',
+        2000,
+       
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{ fontSize: '1em', display: 'inline-block' }}
+      repeat={Infinity}
+    /></div>
+       
             <h1 className="md:text-5xl text-4xl font-bold">
               Hello, I'm <br />
               <span className="md:text-5xl text-3xl font-bold text-accent mb-5">Jefrin Thomas Mathew</span>
