@@ -73,12 +73,12 @@ export default function Design () {
                     number: {
                         density: {
                             enable: true,
-                            area: 1000,
+                            area: 800,
                         },
                         value: 80,
                     },
                     opacity: {
-                        value: 0.5,
+                        value: 0.7,
                     },
                     shape: {
                         type: "circle",
