@@ -4,10 +4,12 @@ import Social from "../Components/social";
 import Profile from "../Components/Profile";
 import Stat from "../Components/stats"
 import { TypeAnimation } from 'react-type-animation';
-
+import Design from "../Components/design"
 const Home = () => {
   return (
+    
     <section className="">
+      <Design />
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           
