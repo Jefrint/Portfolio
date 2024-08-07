@@ -10,7 +10,7 @@ const Home = () => {
     
     <section className="">
       <Design />
-      <div className="container mx-auto h-full">
+      <div className="container mx-auto h-[100vh]">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           
           <div className="order-2 xl:order-none text-center lg:text-left">

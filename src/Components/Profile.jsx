@@ -17,7 +17,7 @@ export default function Profile()    {
             </motion.div>
 
             <motion.svg
-      className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] xl:w-[506px] xl:h-[506px]"
+      className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] xl:w-[479px] xl:h-[479px]"
       fill="transparent"
       viewBox="0 0 506 506"
       xmlns="http://www.w3.org/2000/svg"
