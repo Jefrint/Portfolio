@@ -5,12 +5,21 @@ import Profile from "../Components/Profile";
 import Stat from "../Components/stats"
 import { TypeAnimation } from 'react-type-animation';
 import Design from "../Components/design"
+import { motion } from "framer-motion";
+
 const Home = () => {
   return (
     
     <section className="">
-      <Design />
-      <div className="container mx-auto h-[100vh]">
+      <motion.div
+          initial={{ opacity: 0 }}
+          animate={{
+            opacity: 1,
+            transition: { delay: 0.5, duration: 0.4, ease: "easeIn" }
+          }}>
+<div className="absolute  z-0">
+<Design />
+      </div>      <div className="container mx-auto h-[100vh]">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           
           <div className="order-2 xl:order-none text-center lg:text-left">
@@ -49,7 +58,7 @@ const Home = () => {
 
         </div>
         
-      
+        </motion.div>
     </section>
   );
 };
