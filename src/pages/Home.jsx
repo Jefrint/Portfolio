@@ -46,8 +46,18 @@ const Home = () => {
             </h1>
             <p className="max-w-[500px] mb-8 text-white/80">I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.</p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button variant="outlined" size="lg" className="uppercase border rounded-full px-9 py-2 border-accent hover:bg-accent-hover hover:text-black flex items-center gap-2 text-accent"> Download Cv <FiDownload/></ Button>
-             <div className="mb-8 xl:mb-0"><Social  constainerStyle="flex gap-6 " iconsStyle="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500"/></div>
+            <a
+    href="src\assets\Jefrin_Resume.pdf" // Ensure the path to your CV file is correct
+    download
+  >
+    <Button
+      variant="outlined"
+      size="lg"
+      className="uppercase border rounded-full px-9 py-2 border-accent hover:bg-accent-hover hover:text-black flex items-center gap-2 text-accent"
+    >
+      Download CV <FiDownload />
+    </Button>
+  </a>           <div className="mb-8 xl:mb-0"><Social  constainerStyle="flex gap-6 " iconsStyle="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500"/></div>
             </div>
           </div>
 
