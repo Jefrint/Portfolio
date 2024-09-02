@@ -47,7 +47,7 @@ const Home = () => {
             <p className="max-w-[500px] mb-8 text-white/80">I excel at crafting elegant digital experiences and I am proficient in various programming languages and technologies.</p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
             <a
-    href="src\assets\Jefrin_Resume.pdf" // Ensure the path to your CV file is correct
+    href="\Jefrin_Resume.pdf" // Ensure the path to your CV file is correct
     download
   >
     <Button
