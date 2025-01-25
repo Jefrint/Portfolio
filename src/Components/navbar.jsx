@@ -27,33 +27,7 @@ const Navbar = () => {
           Services
         </Link>
       </li>
-      <li>
-        <Link 
-          to="/resume" 
-          className="text-white hover:text-accent focus:text-accent hover:border-b-2 focus:border-b-2 hover:border-accent focus:border-accent"
-          onClick={() => isMobile && setOpen(false)}
-        >
-          Resume
-        </Link>
-      </li>
-      <li>
-        <Link 
-          to="/works" 
-          className="text-white hover:text-accent focus:text-accent hover:border-b-2 focus:border-b-2 hover:border-accent focus:border-accent"
-          onClick={() => isMobile && setOpen(false)}
-        >
-          Works
-        </Link>
-      </li>
-      <li>
-        <Link 
-          to="/contact" 
-          className="text-white hover:text-accent focus:text-accent hover:border-b-2 focus:border-b-2 hover:border-accent focus:border-accent"
-          onClick={() => isMobile && setOpen(false)}
-        >
-          Contact
-        </Link>
-      </li>
+     
       <li>
         <Button className="bg-accent hover:bg-green-900 font-mono rounded-full h-9 w-26 flex items-center justify-center text-center text-black py-1 px-3 shadow">
           Hire Me
